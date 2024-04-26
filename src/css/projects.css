@@ -1,0 +1,176 @@
+#projects {
+   background: repeating-linear-gradient(to right, black, rgb(2, 2, 46));
+   top: calc(100svh);
+   position: relative;
+   height: 800svh;
+   width: 100%;
+}
+#projects img {
+   position: absolute;
+   border-radius: 10px;
+}
+
+
+@media (min-width: 620px) {
+   .three-img-container {
+    width: 30.66vw;
+    height: auto;
+  position: absolute;
+   }
+#ImagePool1 {
+   width: 54vw;
+   height: auto;
+   position: absolute;
+   left: 2vw;
+   top: 15vw;
+   border-radius: 10px;
+ }
+ 
+ #ImagePool2 {
+   width: 40vw;
+   height: auto;
+   position: absolute;
+   top: 62.5vw;
+   left: 57.5vw;
+   border-radius: 10px;
+ }
+ 
+ #ImagePool3 {
+   width: 54vw;
+   height: auto;
+   top: 47.5vw;
+   position: absolute;
+   left: 2vw;
+   border-radius: 7px;
+ }
+ 
+ #ImagePool4 {
+   width: 40vw;
+   height: auto;
+   position: absolute;
+   top: 7vw;
+   left: 57.5vw;
+   border-radius: 30px;
+ }
+ 
+ #ImagePool5 {
+   width: 34vw;
+   position: absolute;
+   left: 2vw;
+   top: 80vw;
+   border-radius: 23px;
+ }
+ 
+ #ImagePool6 {
+   width: 31.5vw;
+   position: absolute;
+   left: 37.5vw;
+   top: 87vw;
+   border-radius: 25px;
+ }
+ 
+ #ImagePool7 {
+   width: 27vw;
+   position: absolute;
+   left: 70.5vw;
+   top: 87vw;
+   border-radius: 10px;
+ }
+ 
+ #ImagePool8 {
+   width: 67vw;
+   position: absolute;
+   top: 132.5vw;
+   left: 2vw;
+   border-radius: 20px;
+ }
+ 
+ #ImagePool9 {
+   width: 20vw;
+   height: auto;
+   position: absolute;
+   top: 1680px;
+   left: 70.5vw;
+   border-radius: 30px;
+   display: none;
+ }
+ 
+ #ImagePool10 {
+   width: 27vw;
+   height: auto;
+   position: absolute;
+   top: 136vw;
+   left: 70.5vw;
+   border-radius: 24px;
+ }
+ #ImagePool11 {
+  width: 45vw;
+  height: auto;
+  position: absolute;
+  top: 178vw;
+  left: 3vw;
+  border-radius: 25px;
+ }
+ #ImagePool12 {
+  width: 45vw;
+  height: auto;
+  position: absolute;
+  top: 178vw;
+  left: 50vw;
+ }
+ #ImagePool13 {
+  width: 57vw;
+  height: auto;
+  position: absolute;
+  top: 214vw;
+  left: 2vw;
+ }
+ #ImagePool14 {
+  width: 36vw;
+  height: auto;
+  position: absolute;
+  top: 214vw;
+  left: 61vw;
+ }
+ #ImagePool15 {
+  top: 248vw;
+  left: 2vw;
+ }
+ #ImagePool16 {
+  top: 248vw;
+  left: 34.6vw;
+ }
+ #ImagePool17 {
+  top: 248vw;
+  left: 67.2vw;
+ }
+}
+@media (max-width: 619px) {
+   #projects img.reveal-element1-img {
+      position: static;
+      width: calc(100svw - (5svw * 2));
+   }
+   .phone-container-images {
+      display: flex;
+      height: 100%;
+      width: 100svw;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+   }
+   #projects {
+      top: -10svh;
+   }
+   .text-wrapper-images-project {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+   }
+   .text-wrapper-images-project h1 {
+    width: 75%;
+
+   }
+  
+}
